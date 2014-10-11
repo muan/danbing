@@ -1,47 +1,19 @@
 {
-  "name": "cat-picture",
-  "version": "5.0.2",
-  "description": "makes a cat appear on your web site",
+  "name": "danbing",
+  "version": "0.0.1",
+  "description": "makes a danbing on your web site",
   "main": "index.js",
-  "scripts": {
-    "test": "browserify test.js"
-  },
-  "author": "max ogden",
-  "license": "BSD",
-  "dependencies": {
-    "brfs": "^1.0.0"
-  },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
+  "author": "Mu-An Chiou",
+  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxogden/cat-picture.git"
+    "url": "https://github.com/muan/danbing.git"
   },
   "bugs": {
-    "url": "https://github.com/maxogden/cat-picture/issues"
+    "url": "https://github.com/muan/danbing/issues"
   },
-  "homepage": "https://github.com/maxogden/cat-picture",
-  "testling": {
-    "files": "test.js",
-    "browsers": [
-      "ie/8..latest",
-      "firefox/17..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
-  },
-  "devDependencies": {
-    "browserify": "^3.32.1",
-    "tape": "^2.10.2"
-  }
+  "homepage": "https://github.com/muan/danbing",
+  "keywords": [
+    "taiwan", "breakfast"
+  ]
 }

@@ -1,8 +1,8 @@
 var fs = require('fs')
-var cat = fs.readFileSync(__dirname + '/cat.jpg', 'hex')
-cat = new Buffer(cat.toString(), 'hex').toString('base64')
-cat = 'data:image/jpeg;base64,' + cat
+var danbing = fs.readFileSync(__dirname + '/danbing.jpg', 'hex')
+danbing = new Buffer(danbing.toString(), 'hex').toString('base64')
+danbing = 'data:image/jpeg;base64,' + danbing
 var img = document.createElement('img')
-img.setAttribute('src', cat)
-img.setAttribute('class', 'cat-picture')
+img.setAttribute('src', danbing)
+img.setAttribute('class', 'danbing')
 document.body.appendChild(img)
