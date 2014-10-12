@@ -12,7 +12,7 @@ require('danbing')
 
 ## demo
 
-[try it on requirebin](http://requirebin.com/?gist=9522894)
+[try it on requirebin](http://requirebin.com/?gist=1f770219c72b5b1744dd)
 
 does this:
 
