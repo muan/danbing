@@ -1,9 +1,18 @@
 {
   "name": "danbing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "makes a danbing on your web site",
   "main": "index.js",
   "author": "Mu-An Chiou",
+  "license": "BSD",
+  "dependencies": {
+    "brfs": "^1.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
